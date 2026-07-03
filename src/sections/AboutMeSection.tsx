@@ -47,12 +47,12 @@ function GitHubStats() {
         {
             id: 1,
             title: "Contribution Graph",
-            imageUrl: "https://raw.githubusercontent.com/gabrieleforner/gabrieleforner/output/profile-summary-card-output/github_dark/0-profile-details.svg"
+            imageUrl: "https://cdn.jsdelivr.net/gh/gabrieleforner/gabrieleforner.github.io@output/github_dark/0-profile-details.svg"
         },
         {
             id: 2,
             title: "GH Commits per Language",
-            imageUrl: "https://raw.githubusercontent.com/gabrieleforner/gabrieleforner/output/profile-summary-card-output/github_dark/2-most-commit-language.svg"
+            imageUrl: "https://cdn.jsdelivr.net/gh/gabrieleforner/gabrieleforner.github.io@output/github_dark/2-most-commit-language.svg"
         }
     ];
 
