@@ -25,7 +25,10 @@ jobs:
 
       - name: Install Dependencies
         run: npm ci
-            
+
+      - name: Add .nojekyll file
+        run: touch dist/.nojekyll
+
       - name: Build Project
         run: npm run build
 
