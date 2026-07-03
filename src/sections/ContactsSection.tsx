@@ -9,24 +9,17 @@ export default function ContactsSection() {
                     <h3 className="display-6">Contacts</h3>
                     <Row className="g-3 align-items-center">
                         <Col xs={7} className="ps-5">
-                            <h1 className="blockquote">"Pushing the limits of code"</h1>
-                            <p>
-                                Hi, I’m Gabriele! I am a student software developer. I am passionate about backend platforms and
-                                systems design. What I like the most about building backend services is the continuous challenge
-                                of optimizing it at its finest, to ensure the maximum performance, alongside safe, easy-to-consume
-                                and scalable APIs.
+                            <p>I'm always open to discussing new projects, opportunities, or just having a chat about
+                                technology. Whether you have a question, a proposal, or simply want to connect, feel
+                                free to reach out — I'll do my best to get back to you as soon as possible.
                             </p>
-                            <p>
-                                My approach to software development is mainly test-driven, where each component of a microservice
-                                has to perfectly work by itself and integrate at its best with the rest of the infrastructure. When
-                                designing solutions, I always try to keep my code as clean and decoupled as possible to maintain a robust architecture.
-                            </p>
-                            <p>
-                                One last big reminder I have is to document everything, even if it's the easiest component, so it's way
-                                easier to understand, extend, and debug. In terms of AI usage, I hardly use it for implementing full
-                                parts, but I delegate to it the work that I am sure it will hardly fail to write. When this happens,
-                                I always review its work (Trust is good, but not trusting is better).
-                            </p>
+                        </Col>
+                        <Col xs={5} className="ps-5">
+                            <p>You can find my socials down here or in the top right of the page or down below.</p>
+
+                            <a href="https://linkedin.com/in/gabriele-forner">LinkedIn | Gabriele Forner </a> <br />
+                            <a href="https://github.com/gabrieleforner">GitHub | <code>gabrieleforner</code> </a> <br />
+                            <a href="mailto:gabriele.forner@icloud.com">Email Address </a>
                         </Col>
                     </Row>
                 </Container>
