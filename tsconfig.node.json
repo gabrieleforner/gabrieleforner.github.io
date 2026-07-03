@@ -21,10 +21,12 @@
 
     /* Aliases */
     "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "paths": {
-      "@/components" : ["src/components/*"],
-      "@/sections" : ["src/sections/*"],
-      "@/assets" : ["src/assets/*"]
+      "@/components/*" : ["src/components/*"],
+      "@/sections/*" : ["src/sections/*"],
+      "@/assets/*" : ["src/assets/*"],
+      "@/lib/*" : ["src/lib/*"],
     }
   },
   "include": ["vite.config.ts"]
