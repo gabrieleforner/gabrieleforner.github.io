@@ -1,0 +1,16 @@
+body {
+    background-color: #0d1117;
+    color: #f0f6fc;
+}
+
+h1, h2, h3, h4, h5, h6, .display-6 {
+    color: #ffffff !important;
+}
+
+p {
+    color: #8b949e !important;
+}
+
+.blockquote {
+    color: #ffffff !important;
+}
